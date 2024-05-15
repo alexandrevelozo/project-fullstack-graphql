@@ -1,4 +1,4 @@
-# Projeto Fullstack com Node/React
+# Projeto Fullstack Node/React
 
 Bem-vindo ao meu projeto fullstack! Este projeto é uma aplicação completa desenvolvida para fins de estudo e prática de habilidades em desenvolvimento web. Utiliza Node.js com Apollo Server para o backend e React para o frontend. Abaixo, você encontrará uma descrição detalhada do projeto, instruções de configuração e como rodar a aplicação.
 
@@ -25,27 +25,29 @@ Bem-vindo ao meu projeto fullstack! Este projeto é uma aplicação completa des
 
 ## 📂 Estrutura do Projeto
 
-root
-│ README.md
-│ package.json
-│
-└───backend
-│ │ src
-│ │ ├── index.ts
-│ │ ├── schema.ts
-│ │ ├── resolvers
-│ │ └─── ...
-│ │
-│ └───package.json
-│
-└───frontend
-│ src
-│ ├── App.tsx
-│ ├── index.tsx
-│ ├── components
-│ └─── ...
-│
-└───package.json
+  ```bash
+  root
+  │ README.md
+  │ package.json
+  │
+  └───backend
+  │ │ src
+  │ │ ├── index.ts
+  │ │ ├── schema.ts
+  │ │ ├── resolvers
+  │ │ └─── ...
+  │ │
+  │ └───package.json
+  │
+  └───frontend
+  │ src
+  │ ├── App.tsx
+  │ ├── index.tsx
+  │ ├── components
+  │ └─── ...
+  │
+  └───package.json
+  ```
 
 
 ## 🎯 Objetivo do Projeto
@@ -73,6 +75,7 @@ Este projeto foi desenvolvido com o objetivo de estudar e praticar as seguintes 
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio/backend
+   ```
 
 2. Instale as dependências:
 
@@ -80,12 +83,14 @@ Este projeto foi desenvolvido com o objetivo de estudar e praticar as seguintes 
     yarn install
     # ou
     npm install
+    ```
 
 3. Configure as variáveis de ambiente:
 
   ```bash
   DATABASE_URL=your_database_url
   PORT=4000
+  ```
 
 4. Execute o servidor 
 
@@ -93,6 +98,7 @@ Este projeto foi desenvolvido com o objetivo de estudar e praticar as seguintes 
     yarn start
     # ou
     npm start
+    ```
 
 ### Frontend
 
@@ -104,11 +110,13 @@ Este projeto foi desenvolvido com o objetivo de estudar e praticar as seguintes 
     yarn install
     # ou
     npm install
+    ```
 
 3. Configure as variáveis de ambiente:
 
   ```bash
   REACT_APP_GRAPHQL_ENDPOINT=http://localhost:4000/graphql
+  ```
 
 4. Execute o aplicativo React:
 
@@ -116,6 +124,7 @@ Este projeto foi desenvolvido com o objetivo de estudar e praticar as seguintes 
     yarn start
     # ou
     npm start
+    ```
 
 ## 🤝 Como Contribuir
 
